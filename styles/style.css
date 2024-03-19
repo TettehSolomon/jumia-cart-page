@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: auto;
+    margin: 10px;
+    padding: 0px 10px 10px 10px;
+    border: 1px solid red;
+}
+
+#leftCon {
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid blue;
+    
+
+}
+
+#rightCon {
+    height: 400px;
+    width: 800px;
+    padding: 10px;
+    margin: 10px 50px;
+    border: 1px solid green;
+    
+    
+}
+
+#imgEle {
+    height: 300px;
+    width: 300px;
+    
+}
+
+.productImg{
+    border: 1px solid red;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+}
+
+.images {
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+
+.title {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 1.7;
+    margin: 0 0 7px 0;
+   
+}
+
+.brand {
+    margin: 0 0 10px 0;
+}
+
+.discountBtn {
+    color: red;
+    background-color: rgba(255, 166, 0, 0.249);
+    padding: 3px 7px;
+    border: 0;
+    border-radius: 3px;
+    margin: 0 0 9px 0;
+    font-size: 13px;
+}
+
+.priceEle {
+    font-weight: bold;
+    font-size: 27px;
+    margin: 12px 0 0 0;
+    
+}
+
+.price {
+    text-decoration: line-through;
+    color: grey;
+    font-weight: normal;
+    font-size: 17px;
+
+}
+
+.unit {
+    color: rgb(130, 97, 8);
+    margin: 0 0 12px 0;
+    
+}
+
+.shipping {
+    font-size: 15px;
+    
+}
+
+.fiveStar {
+    border: 1px solid red;
+}
+
+#five {
+    color: orange;
+    display: flex;
+
+
+}
+
+.verified {
+    color: darkblue;
+    margin: 0 0 0 15px;
+}
+
+.counter {
+    display: flex;
+    border: 1px solid red;
+    margin: 10px 0;
+
+    button {
+        background-color: red;
+        padding-right: 7px;
+        padding-left: 7px;
+        font-size: 2px;
+    }
+    
+}
+
+.navbar {
+    background-color: #fff; /* White background */
+  }
+  
+  .navbar-collapse {
+    justify-content: space-between;
+  }
+  
+  .navbar-brand,
+  .nav-item {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .form-inline {
+    width: 100%;
+    max-width: 600px; /* Set maximum width for the search bar */
+  }
+
+@media screen and (max-width: 600px){
+    #container {
+        flex-direction: column;
+        padding: 0;
+        margin-top: 100px;
+    }
+
+    #rightCon {
+        width: auto;
+        padding: 0;
+        margin: 0;
+        line-height: 1.1;
+        
+    }
+}
