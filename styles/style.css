@@ -43,7 +43,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid blue;
 }
 
 .images {
@@ -150,7 +149,6 @@
     text-transform: uppercase;
     font-weight: 500;
     padding-bottom: 8px;
-    border: 1px solid red;
     margin-top: -15px;
 }
 
