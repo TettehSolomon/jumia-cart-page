@@ -14,7 +14,7 @@
     width: auto;
     margin: 10px;
     padding: 0px 10px 10px 10px;
-    border: 1px solid red;
+
 }
 
 #leftCon {
@@ -22,8 +22,6 @@
     width: 300px;
     padding: 10px;
     margin: 10px;
-    border: 1px solid blue;
-    
 
 }
 
@@ -32,9 +30,6 @@
     width: 800px;
     padding: 10px;
     margin: 10px 50px;
-    border: 1px solid green;
-    
-    
 }
 
 #imgEle {
@@ -43,8 +38,7 @@
     
 }
 
-.productImg{
-    border: 1px solid red;
+.productImg {
     height: 90px;
     display: flex;
     justify-content: center;
@@ -106,9 +100,6 @@
     
 }
 
-.fiveStar {
-    border: 1px solid red;
-}
 
 #five {
     color: orange;
@@ -124,16 +115,43 @@
 
 .counter {
     display: flex;
-    border: 1px solid red;
     margin: 10px 0;
-
-    button {
-        background-color: red;
-        padding-right: 7px;
-        padding-left: 7px;
-        font-size: 2px;
-    }
     
+}
+
+
+.counter-button {
+    background-color: #f68b1e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 13px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.counter-button:hover {
+    background-color: gray;
+}
+
+#result {
+    font-size: 24px;
+    margin: 0 20px;
+}
+
+.addedItem {
+    margin-left: 15px;
+
+}
+
+.promo {
+    font-size: .875rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 8px;
+    border: 1px solid red;
+    margin-top: -15px;
 }
 
 .navbar {

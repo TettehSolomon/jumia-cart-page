@@ -132,3 +132,12 @@ decrementBtn.addEventListener('click', decrement);
 let coun = document.querySelector('.counter');
 rightConEle.appendChild(coun);
 
+//create another hr element
+let horiEle = document.querySelector('.hori');
+rightConEle.appendChild(horiEle);
+
+//create p element for promotion
+let promoEle = document.createElement('p');
+promoEle.innerHTML = 'Promotion';
+promoEle.setAttribute('class', 'promo');
+rightConEle.appendChild(promoEle);
